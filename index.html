@@ -3,7 +3,52 @@
 <head>
 	<title>Nina Carducci - Photographe</title>
 	<meta name="description" content="Nina Carducci, photographe professionnelle en Île-de-France. Découvrez son portfolio et ses services de photographie.">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Open Graph -->
+    <meta property="og:title" content="Nina Carducci - Photographe">
+    <meta property="og:description" content="Nina Carducci, photographe professionnelle. Découvrez son portfolio et ses services de photographie.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nina-carducci.github.io/">
+    <meta property="og:image" content="./assets/images/nina.webp">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nina Carducci - Photographe">
+    <meta name="twitter:description" content="Nina Carducci, photographe professionnelle. Découvrez son portfolio et ses services de photographie.">
+    <meta name="twitter:image" content="./assets/images/nina.webp">
+
+   <!-- Données structurées Schema.org -->
+   <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "Nina Carducci",
+          "image": "./assets/images/nina.webp",
+          "telephone": "05 56 67 78 89",
+          "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "postalCode": "33200",
+          "addressLocality": "Bordeaux",
+          "addressCountry": "FR"
+           },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+               ],
+              "opens": "10:00",
+              "closes": "19:00"
+            }
+          ]
+       }
+   </script>
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
