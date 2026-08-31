@@ -397,3 +397,9 @@ input[type="submit"] {
     transform: translateY(-50%);
     border-radius: 50%;
 }
+
+#header .carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
